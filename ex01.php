@@ -1,5 +1,5 @@
 <?php 
-$salarioBruto = 5000;
+$salarioBruto = 500;
 $salarioLiquido = 0;
 $inss = 0.86;
 
