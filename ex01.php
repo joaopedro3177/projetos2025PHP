@@ -55,8 +55,6 @@ function DescontarInss($salarioLiquido, $salarioBruto, $inss){
 function exibir($salarioLiquido, $salarioBruto, $inss){
 	DescontarInss($salarioLiquido, $salarioBruto, $inss);
 	echo("O salario inicial foi de $salarioBruto <br/> O desconto de INSS foi de $inss <br/> O salario final ficou de " . DescontarInss($salarioLiquido, $salarioBruto, $inss));
-
-
 }
 
 exibir($salarioLiquido, $salarioBruto, $inss);
