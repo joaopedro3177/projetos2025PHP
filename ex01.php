@@ -1,10 +1,11 @@
 <?php 
 $salarioBruto = 5000;
 $salarioLiquido = 0;
-$inss = 86;
-$ir = 0;
+$inss = 0.86;
 
-function DescontarIr($ir, $salarioBruto, $salarioLiquido){
+
+
+function DescontarIr($salarioBruto, $salarioLiquido){
 	if($salarioBruto <= 2259) {
 		echo ("O salario nao atende os requisitos para o desconto!");
 		return($salarioBruto);
@@ -14,7 +15,6 @@ function DescontarIr($ir, $salarioBruto, $salarioLiquido){
 
 	elseif ($salarioBruto > 2259 || $salarioBruto <= 2826) {
 		$salarioLiquido = $salarioBruto * 0.925;
-		echo ($salarioLiquido);
 		return($salarioLiquido);
 		
 
@@ -22,41 +22,43 @@ function DescontarIr($ir, $salarioBruto, $salarioLiquido){
 
 	elseif ($salarioBruto > 2826 || $salarioBruto <= 3751) {
 		$salarioLiquido = $salarioBruto * 0.85;
-		echo($salarioLiquido);
 		return($salarioLiquido);
 	}
 
 	elseif ($salarioBruto > 3751 || $salarioBruto <= 4664) {
 		$salarioLiquido = $salarioBruto * 0.775;
-		echo($salarioLiquido);
 		return($salarioLiquido);
 	}
 
 	elseif ($salarioBruto > 4664) {
 		$salarioLiquido = $salarioBruto * 0.725;
-		echo($salarioLiquido);
 		return($salarioLiquido);
 		
+	}
+
+	else{
+		echo("Valor não correspondenete");
+
 	}
 
 
 
 }
 
+function DescontarInss($salarioLiquido, $salarioBruto, $inss){
+	$salarioLiquido = DescontarIr($salarioBruto, $salarioLiquido) * $inss;
+	return($salarioLiquido);
+	
+}
 
 
-
-/*function DescontarInss() {
-
-	if($salarioBruto <= 2259){
-
+function exibir($salarioLiquido, $salarioBruto, $inss){
+	DescontarInss($salarioLiquido, $salarioBruto, $inss);
+	echo("O salario inicial foi de $salarioBruto <br/> O desconto de INSS foi de $inss <br/> O salario final ficou de " . DescontarInss($salarioLiquido, $salarioBruto, $inss));
 
 
-	}
+}
 
+exibir($salarioLiquido, $salarioBruto, $inss);
 
-
-}*/
-
-DescontarIr($ir,$salarioBruto, $salarioLiquido);
  ?>
