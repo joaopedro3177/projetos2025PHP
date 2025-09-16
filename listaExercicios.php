@@ -110,14 +110,17 @@
 
 //ex005
 
-$altura = 130;
-$idade = 7;
-$sexo = "masculino";
-$cont = 0;
 
-while ($cont < 50) {
- 	$
- } 
+
+
+ 
+	
+
+
+
+
+
+ 
 
 
  ?>
