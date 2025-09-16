@@ -1,6 +1,7 @@
 <?php 
 
-echo("<br/> Eu sou o cabeçalho ");
+	echo("<br/> Eu sou o cabeçalho ");
+	echo("<hr/>");
 
 
 
