@@ -35,6 +35,21 @@
 	echo ("<pre>");
 	print_r($aluno);
 	echo("</pre>");
+
+
+
+	for ($i=0; $i < 6 ; $i++) { 
+		$vetor[$i] = 12;
+		
+
+	}
+
+	echo("<br/>");
+
+	for ($i=0; $i < 6 ; $i++) { 
+		echo "O valor do vetor: " . $vetor[$i];
+		echo("<br/>");
+	}
 	
 	
 
