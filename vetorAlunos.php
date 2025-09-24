@@ -57,7 +57,7 @@
 
 
 	$nome["MA"] = "Maria";
-	$nome["PE"] = "Maria";
+	$nome["MU"] = "Mumuzinho";
 	$nome["LALA"] = "Lazaro Barboza";
 
 	echo("<pre>");
