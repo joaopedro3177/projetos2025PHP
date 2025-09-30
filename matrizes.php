@@ -35,6 +35,36 @@
 
 	echo json_encode($arr);
 
+	echo "<br/>";
+
+	$arr = array(1,2,3,4,5);
+	echo json_encode($arr);
+
+
+	echo '<br/>';
+
+	$arr = array(1,2,3,4,5);
+
+	foreach($arr as $value){
+		echo $value . ' ';
+
+	}
+
+	echo "<br/>";
+
+
+	$arr = array('v' => 'Vermelho', 'e' => 'Verde', 'z' => 'azul');
+
+	foreach($arr as $key => $value){
+		echo $key . "=>" . $value . "\n";
+
+
+
+	}
+
+
+
+
 
 
  ?>
