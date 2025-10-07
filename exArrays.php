@@ -81,7 +81,7 @@
 //ex003
 $media = 0;
 $soma = 0;
-$numero =
+$numero = 0;
 
 $informacoes = array(
 	array("João", 10),
@@ -102,13 +102,16 @@ $informacoes = array(
 
 for ($i=0; $i < 10 ; $i++) { 
 	for ($j=0; $j < 2 ; $j++) {
-		$numero = $informacoes[$j];
 		if ($numero > 0) {
+			$numero = $informacoes[$j];
 			$soma = $soma + $numero;
 		}
 		
 	}
 }
+
+$media = $soma / 10;
+echo "A média da sala foi de $media";
 
 
 
