@@ -46,18 +46,18 @@
 
 
 //ex003
-$resultado = 0;
-$soma = 0;
-$numeroM = 5;
-$numeros = array(1,2,3,4,5,6,7,8,9,10);
+// $resultado = 0;
+// $soma = 0;
+// $numeroM = 5;
+// $numeros = array(1,2,3,4,5,6,7,8,9,10);
 
-for ($i=0; $i < 10 ; $i++) { 
-	$soma += $numeros[$i];
-}
+// for ($i=0; $i < 10 ; $i++) { 
+// 	$soma += $numeros[$i];
+// }
 
-$resultado = $soma * $numeroM;
+// $resultado = $soma * $numeroM;
 
-echo "O resultado foi de $resultado";
+// echo "O resultado foi de $resultado";
 
 
 
