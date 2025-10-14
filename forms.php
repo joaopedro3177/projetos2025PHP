@@ -8,8 +8,23 @@
 <body>
 	<h1>Formulários</h1>
 
-	<form action="#" method="get">
+	<form action="cadastrar.php" method="post">
+		<label for="nome">Nome:</label>
+		<br> 
+
+		<input type="text" name="nome" id="nome">
+		<br><br>
+
+		<label for="email"> Email:</label>
+		<br>
+		<input type="email" name="email" id="email">
+		<br><br>
+
+		<input type="submit" name="enviar">
+		<button type="submit">Cadastrar</button>
 		
 	</form>
+
+	<a href="<?php  ?>">Executando</a>
 </body>
 </html>
