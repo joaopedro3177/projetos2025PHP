@@ -14,7 +14,7 @@
 			
 
 
-			<form action="#" method="post">
+			<form action="include/cadastrar.php" method="post">
 				<div class="md-3">
 				<label for="primeiroNome">Primeiro nome</label>
 				
@@ -40,8 +40,8 @@
 				</select>
 				</div>
 
-				<button type="submit">Enviar</button>
-				<button type="reset">Limpar</button>
+				<button class="btn btn-primary" type="submit">Enviar</button>
+				<button class="btn btn-warning" type="reset">Limpar</button>
 				
 		
 
