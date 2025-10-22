@@ -6,10 +6,12 @@
 
 
 
-	echo ($primerioNome . "-" . $segundoNome . "-" . $escolhaPets);
+	echo ($primerioNome . "-" . $segundoNome . "-" . $escolhaPets . "<br>");
 
-	// echo '<a href = "../index.php">Voltar</a>';
- 	header("location: ../index.php");
+
+	echo '<a href = "../index.php">Voltar</a>';
+
+ 	// header("location: ../index.php");
 
 
  ?>
