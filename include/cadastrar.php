@@ -1,8 +1,15 @@
 <?php 
 
-	$primerioNome = $_POST['primeiroNome'];
-	$segundoNome = $_POST['segundoNome'];
-	$escolhaPets = $_POST['escolhaPets'];
+
+
+	if ($_SERVER['REQUEST_METHOD'] == 'get') {
+		$primerioNome = $_POST['primeiroNome'];
+		$segundoNome = $_POST['segundoNome'];
+		$escolhaPets = $_POST['escolhaPets'];
+	}
+
+	
+	
 
 
 
@@ -12,6 +19,11 @@
 	echo '<a href = "../index.php">Voltar</a>';
 
  	// header("location: ../index.php");
+
+ 	else{
+		echo("É post");
+	}
+
 
 
  ?>
