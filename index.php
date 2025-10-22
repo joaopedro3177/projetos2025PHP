@@ -18,13 +18,13 @@
 				<div class="md-3">
 				<label for="primeiroNome">Primeiro nome</label>
 				
-				<input type="text" name="primeiroNome" id="primeiroNome" placeholder="Primeiro nome..." maxlength="50" required autofocus>
+				<input type="text" name="primeiroNome" id="primeiroNome" placeholder="Primeiro nome..." maxlength="50" required autofocus autocomplete="off">
 				
 				</div>
 				<div class="md-3">
 				<label for="primeiroNome">Sobrenome</label>
 				
-				<input type="text" name="segundoNome" id="segundoNome" placeholder="Sobrenome" maxlength="50" required>
+				<input type="text" name="segundoNome" id="segundoNome" placeholder="Sobrenome" maxlength="50" required autocomplete="off">
 				</div>
 				<div class="md-3">
 
