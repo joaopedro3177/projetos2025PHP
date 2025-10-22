@@ -2,11 +2,11 @@
 
 
 
-	if ($_SERVER['REQUEST_METHOD'] == 'get') {
+	if ($_SERVER['REQUEST_METHOD'] == 'post') {
 		$primerioNome = $_POST['primeiroNome'];
 		$segundoNome = $_POST['segundoNome'];
 		$escolhaPets = $_POST['escolhaPets'];
-	}
+	
 
 	
 	
@@ -20,8 +20,10 @@
 
  	// header("location: ../index.php");
 
- 	else{
-		echo("É post");
+ 	}else{
+		echo("É get");
+
+
 	}
 
 
