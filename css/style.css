@@ -7,3 +7,61 @@
 
 }
 
+
+body{
+	display: flex;
+	align-items: center;
+	background-image: url(../image/fundo.jpg);
+	background-repeat: no-repeat;
+	background-attachment: inherit;
+	
+	
+
+
+
+}
+
+
+.container{
+	
+	background-color: #EEEEEE;
+	width: 50%;
+	padding: 30px;
+	margin-top: 50px;
+	border-radius: 10px;
+	border-width: 30px;
+	border-color: black;
+
+
+}
+
+h1{
+	display: flex;
+	justify-content: center;
+
+
+}
+
+label{
+	
+	margin-top: 10px;
+}
+
+input{
+	padding: 10px;
+	width: 100%;
+	margin-top: 10px;
+
+
+
+}
+
+button{
+	margin-top: 10px;
+	width: 100%;
+}
+select{
+	width: 100%;
+
+}
+

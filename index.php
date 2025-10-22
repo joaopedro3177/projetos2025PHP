@@ -40,8 +40,8 @@
 				</select>
 				</div>
 
-				<button class="btn btn-primary" type="submit">Enviar</button>
-				<button class="btn btn-warning" type="reset">Limpar</button>
+				<button class="btn btn-success" type="submit">Enviar</button>
+				<button class="btn btn-secondary" type="reset">Limpar</button>
 				
 		
 
