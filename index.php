@@ -63,6 +63,29 @@
 				<br>
 				<br>
 
+				<h2>Formulário - Recebendo dados - Elementos ocultos</h2>
+
+
+				<input type="hidden" name="user" value="admin">
+				<input type="hidden" name="nivel" value="2">
+
+
+				
+
+		
+
+
+			
+				<select name="estados">
+					<option value="SP">São Paulo</option>
+					<option value="RJ">Rio de Janeiro</option>
+					<option value="MG">Minas Gerais</option>
+					<option value="BA">Bahia</option>
+				</select><br><br>
+
+
+				<textarea name="msg" cols="50" rows="8"></textarea>
+				<br>
 
 
 
@@ -78,17 +101,10 @@
 
 			</form>
 
-			<h2>Formulário - Recebendo dados - Elementos ocultos</h2>
+			
 
 
-			<form name="cadastro" method="post" action="include/cadastrar.php">
-				<input type="hidden" name="user" value="admin">
-				<input type="hidden" name="nivel" value="2">
-
-
-				<input type="submit" name="OK">
-
-			</form>
+			
 
 			</main>
 

@@ -46,6 +46,12 @@
 
 
 
+	if (isset($_POST['estados'])) {
+		echo "Você é do estado de " . $_POST['estados'];
+	}
+
+
+
 	// echo ($primerioNome . "-" . $segundoNome . "-" . $escolhaPets . "<br>");
 
 
