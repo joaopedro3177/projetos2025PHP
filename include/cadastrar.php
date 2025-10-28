@@ -42,6 +42,7 @@
 
 	if (isset($_POST['estado_civil'])) {
 		echo "Você está " . $_POST['estado_civil'];
+		echo "<br/>";
 	}
 
 
