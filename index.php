@@ -40,11 +40,36 @@
 				</select>
 				</div>
 
+				<label>Escolha um ou mais pet</label>
+				<input type="checkbox" name="cachorro"><label>Cachorro</label>
+				<input type="checkbox" name="gato"><label>Gato</label>
+				<input type="checkbox" name="boi"><label>Boi</label>
+				<input type="checkbox" name="galo"><label>Galo</label>
+				<input type="checkbox" name="sapo"><label>Sapo</label>
+				<input type="checkbox" name="sarue"><label>Sarue</label>
+
+
+				<br>
+
+				<label>Estado Civil</label>
+				<br>
+				<input type="radio" name="estado_civil" value="casado">
+
+				<label>Casado</label>
+				<br>
+				<input type="radio" name="estado_civil" value="solteiro">
+				<label>Solteiro</label>
+				<br>
+				<br>
+
 				<button class="btn btn-success" type="submit">Enviar</button>
 				<button class="btn btn-secondary" type="reset">Limpar</button>
 				
 		
 
+
+
+	
 
 
 			</form>
