@@ -14,7 +14,7 @@
 			
 
 
-			<form action="include/cadastrar.php" method="post">
+			<form action="include/cadastrar.php" method="post" class="form">
 				<div class="md-3">
 				<label for="primeiroNome">Primeiro nome</label>
 				
@@ -54,13 +54,17 @@
 				<label>Estado Civil</label>
 				<br>
 				<input type="radio" name="estado_civil" value="casado">
-
+				<br>
 				<label>Casado</label>
 				<br>
 				<input type="radio" name="estado_civil" value="solteiro">
+				<br>
 				<label>Solteiro</label>
 				<br>
 				<br>
+
+
+
 
 				<button class="btn btn-success" type="submit">Enviar</button>
 				<button class="btn btn-secondary" type="reset">Limpar</button>
@@ -74,7 +78,17 @@
 
 			</form>
 
+			<h2>Formulário - Recebendo dados - Elementos ocultos</h2>
 
+
+			<form name="cadastro" method="post" action="include/cadastrar.php">
+				<input type="hidden" name="user" value="admin">
+				<input type="hidden" name="nivel" value="2">
+
+
+				<input type="submit" name="OK">
+
+			</form>
 
 			</main>
 
