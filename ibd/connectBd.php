@@ -3,7 +3,7 @@
 	$host = 'localhost';
 	$user = 'jotape';
 	$pass = '123456';
-	$db = 'dbloja';
+	$db = 'dbpadaria';
 	
 	$con = mysqli_connect($host,$user,$pass,$db);
 
@@ -12,10 +12,19 @@
 		echo "Erro ao conectar ao Banco de dados: " . mysqli_connect_error();
 
 	}else{
-		$sql = 'create database dbPadaria';
 
-		mysqli_query($con,$sql)
-		echo "Banco de dados conectado!!!";
+		$sql = 'create table tbPessoas(
+		codPessoa int not null auto_increment, 
+		nome varchar(100),
+		email varchar(100),
+		telCel char(10),
+		primary key(codPessoa))';
+
+		if(mysqli_query($con,$sql)){
+			echo "Tabela criada com sucesso!!!";
+			
+
+		}
 		mysqli_close($con);
 	}
 
